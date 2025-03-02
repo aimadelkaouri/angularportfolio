@@ -9,12 +9,12 @@ export class ProjectsService {
 
 
   projects: Project[] = [
-      {id:0, name: "Mon projet 1", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
+      {id:0, name: "Mon projet 1", pictures: ["../../assets/pmn3.png"], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
       {id:1, name: "Mon projet 2", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
       {id:2, name: "Mon projet 3", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
       {id:3, name: "Mon projet 4", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
   
-      {id:4, name: "Mon projet 1", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
+      {id:4, name: "Mon projet 5", pictures: [], projectLink: 'test', summary: 'mon teste', description: 'text', tags: [Tag.ANGULAR]},
     ];
   
 
